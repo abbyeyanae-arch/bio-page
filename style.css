@@ -1,9 +1,9 @@
 :root {
   --ink: #333333;
   --paper: #f4f4f9;
+  --accent: #0f4c81;
   --header-bg: #2c3e50;
   --header-ink: #ffffff;
-  --accent: #0f4c81;
 }
 
 body {
@@ -31,10 +31,8 @@ a {
   }
 
 header {
-  background-color: #2c3e50;
-  color: #fff;
-  padding: 1rem;
-  text-align: center;
+  background-color: var(--header-bg);
+  color: var(--header-ink);
 }
 
 img {
@@ -53,8 +51,7 @@ nav ul li {
 }
 
 nav a {
-  color: #fff;
-  text-decoration: none;
+  color: var(--header-ink);
 }
 
 section {
