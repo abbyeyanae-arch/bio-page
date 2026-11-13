@@ -1,6 +1,8 @@
 :root {
-  --ink: #1a1a1a;
-  --paper: #fdfbf7;
+  --ink: #333333;
+  --paper: #f4f4f9;
+  --header-bg: #2c3e50;
+  --header-ink: #ffffff;
   --accent: #0f4c81;
 }
 
@@ -42,6 +44,11 @@ header {
   color: #fff;
   padding: 1rem;
   text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 nav ul {
